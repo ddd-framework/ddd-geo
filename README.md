@@ -1,6 +1,6 @@
 # mgamadeus/ddd-common-geo
 
-Addresses, geocoding, reverse geocoding, GeoRegion hierarchy, and Google Places integration for the [mgamadeus/ddd](https://github.com/mgamadeus/ddd) framework.
+Addresses, geocoding, reverse geocoding, GeoRegion hierarchy, and Google Places integration for the [mgamadeus/ddd](https://github.com/ddd-framework/ddd) framework.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Addresses, geocoding, reverse geocoding, GeoRegion hierarchy, and Google Places 
 composer require mgamadeus/ddd-common-geo
 ```
 
-This pulls in [ddd-common-political](https://github.com/mgamadeus/ddd-political) automatically.
+This pulls in [ddd-common-political](https://github.com/ddd-framework/ddd-political) automatically.
 
 ## What It Does
 
@@ -193,7 +193,7 @@ The framework resolves app overrides automatically via `DDDService::getContainer
 
 ## Conventions
 
-All [mgamadeus/ddd conventions](https://github.com/mgamadeus/ddd) apply. Module-specific rules:
+All [mgamadeus/ddd conventions](https://github.com/ddd-framework/ddd) apply. Module-specific rules:
 
 - GeoType names are UPPERCASE -- use `GeoType::normalizeFromGoogle()` for conversion
 - PostalAddress is a ValueObject (not Entity) -- embedded in other entities, not persisted standalone

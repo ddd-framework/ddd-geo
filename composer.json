@@ -3,7 +3,12 @@
     "description": "Addresses, geocoding, GeoRegions, GeoTypes for mgamadeus/ddd",
     "minimum-stability": "stable",
     "license": "MIT",
-    "version": "1.0.16",
+    "homepage": "https://github.com/ddd-framework/ddd-geo",
+    "support": {
+        "issues": "https://github.com/ddd-framework/ddd-geo/issues",
+        "source": "https://github.com/ddd-framework/ddd-geo"
+    },
+    "version": "1.0.17",
     "authors": [
         {
             "name": "Marius-Eugen Gerdan",
